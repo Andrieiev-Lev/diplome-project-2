@@ -27,6 +27,7 @@ a {
   right: 0;
   bottom: 45px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 2;
 }
 .header-nav {
   margin-bottom: 121px;
@@ -46,4 +47,56 @@ a {
   background: black;
   width: 18px;
   height: 1.8px;
+}
+
+.strategy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px 166px 150px;
+  position: relative;
+}
+.strategy-left {
+  flex-basis: 38%;
+}
+.strategy-left__supTitle {
+  color: rgba(77, 83, 60, 0.8980392157);
+  font-size: 14px;
+  margin-bottom: 29px;
+}
+.strategy-left__Title {
+  color: rgba(59, 62, 49, 0.8980392157);
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 35px;
+}
+.strategy-left__subTitle {
+  color: rgba(33, 56, 66, 0.6);
+  margin-bottom: 42px;
+}
+.strategy-left__link {
+  color: #D4D6D4;
+}
+.strategy-right {
+  flex-basis: 38%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 244px 8px 60px 40px;
+  margin-top: -75;
+}
+.strategy-right__desk {
+  font-size: 24px;
+  color: #4D533C;
+  margin-bottom: 50px;
+}
+.strategy-right-profile {
+  display: flex;
+  align-items: center;
+}
+.strategy-right-profile-title {
+  font-size: 22px;
+  color: #4D533C;
+}
+.strategy-right-profile-title__name {
+  font-size: 400;
+  color: #152934;
 }
