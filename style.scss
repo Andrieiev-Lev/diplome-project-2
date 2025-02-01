@@ -19,6 +19,8 @@ a {
     background: url(/img_1/header-bg.png) no-repeat center/cover;
     padding: 27px 166px 210px 166px;
 
+
+
     &-nav {
         margin-bottom: 121px;
         display: flex;
@@ -42,6 +44,11 @@ a {
         }
     }
 }
+}
+header-2{
+    &__p{
+        
+    }
 }
 
 .header-nav__icon {}
