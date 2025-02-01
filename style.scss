@@ -19,6 +19,17 @@ a {
     background: url(/img_1/header-bg.png) no-repeat center/cover;
     padding: 27px 166px 210px 166px;
 
+    &-slider{
+background: white;
+position: absolute;
+display: flex;
+column-gap: 66px;
+padding: 60px 165px 54px 65px;
+right: 0;
+bottom: 45px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
 
 
     &-nav {
@@ -47,7 +58,7 @@ a {
 }
 header-2{
     &__p{
-        
+
     }
 }
 
@@ -65,6 +76,6 @@ header-2{
 
 .header__link {}
 
-.header-slider {}
+
 
 .header-slider__photo {}
