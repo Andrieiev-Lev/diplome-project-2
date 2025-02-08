@@ -100,3 +100,60 @@ a {
   font-size: 400;
   color: #152934;
 }
+
+.project-text__3D {
+  width: 40%;
+  left: 5%;
+  position: absolute;
+  margin-top: 15%;
+}
+.project-mix__text {
+  width: 40%;
+  position: absolute;
+  right: 5%;
+  margin-top: -20%;
+}
+.project-mixxx__img {
+  margin-top: 37%;
+}
+.project-mixx__img {
+  right: 0;
+  position: absolute;
+}
+.project-mixxx {
+  position: absolute;
+  width: 40%;
+  right: 5%;
+  margin-top: -20%;
+}
+.project-text {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 20px;
+}
+.project-text__awesomr {
+  flex-basis: 10%;
+}
+.project-text__lorem {
+  flex-basis: 23%;
+}
+
+.the-wall {
+  width: 30%;
+}
+
+.article {
+  padding: 40px;
+}
+
+.tv {
+  padding: 40px;
+}
+
+.future {
+  width: 28%;
+}
+
+.you-should {
+  padding: 40px;
+}
