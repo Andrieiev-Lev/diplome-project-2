@@ -143,11 +143,11 @@ a {
 }
 
 .article {
-  padding: 40px;
+  padding: 40px 0px;
 }
 
 .tv {
-  padding: 40px;
+  padding: 40px 0px;
 }
 
 .future {
@@ -155,5 +155,5 @@ a {
 }
 
 .you-should {
-  padding: 40px;
+  padding: 40px 0px;
 }
