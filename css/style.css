@@ -157,3 +157,79 @@ a {
 .you-should {
   padding: 40px 0px;
 }
+
+.services-title {
+  margin-left: 25%;
+  width: 19%;
+  margin-top: 7%;
+  font-size: 20px;
+}
+.services-card {
+  display: flex;
+  margin-top: 5%;
+  margin-left: 12%;
+}
+.services-card-item__title {
+  width: 29%;
+}
+.services-card-item__description {
+  width: 50%;
+  padding: 25px 0px;
+}
+
+.footer {
+  background-image: url(/footer/Bg\ \(2\).png);
+  margin-top: 20%;
+}
+.footer-bottom__logo {
+  padding: 5% 10%;
+}
+.footer-bottom__title {
+  font-size: 15px;
+  color: #889562;
+  margin-left: 70%;
+}
+.footer-center {
+  margin-top: 7%;
+  display: flex;
+  margin-left: 6%;
+}
+.footer-center-card {
+  padding: 0px 100px;
+}
+.footer-center-card__title {
+  color: white;
+  padding: 15% 0%;
+}
+.footer-center-card__supTitle {
+  color: #889562;
+  padding: 5% 0%;
+}
+.footer-center-card__email {
+  padding: 5% 0%;
+  color: white;
+  font-size: 25px;
+}
+.footer-modal {
+  position: absolute;
+  background: rgb(245, 245, 245);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 5% 15%;
+  margin-top: 10%;
+}
+.footer-modal__title {
+  font-size: 35px;
+  width: 75%;
+  margin-bottom: 10%;
+}
+.footer-top-data {
+  margin-top: 15%;
+}
+.footer-top-data__title {
+  margin-left: 40%;
+  color: #889562;
+}
+.footer-top-data__subTitle {
+  margin-left: 40%;
+  color: white;
+}
