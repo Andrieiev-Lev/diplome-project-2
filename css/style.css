@@ -107,6 +107,12 @@ a {
   position: absolute;
   margin-top: 15%;
 }
+.project-mix-div {
+  position: absolute;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 20%;
+}
 .project-mix__text {
   width: 40%;
   position: absolute;
@@ -123,6 +129,7 @@ a {
 .project-mixxx {
   position: absolute;
   width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   right: 5%;
   margin-top: -20%;
 }
@@ -212,12 +219,12 @@ a {
 }
 .footer-modal {
   position: absolute;
-  background: rgb(245, 245, 245);
+  background: rgb(242, 239, 239);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 5% 15%;
   margin-top: 10%;
 }
-.footer-modal__title {
+r .footer-modal__title {
   font-size: 35px;
   width: 75%;
   margin-bottom: 10%;

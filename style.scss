@@ -125,14 +125,20 @@ a {
 
     &-mix {
         &-div {
+
             position: absolute;
             background: white;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            margin-top: 10%;
+            width: 20%;
+
 
             &__text {
-                width: 10%;
             }
+            &__img {}
+
+            &__title {}
+
+            &__subTitle {}
         }
 
         &__text {
@@ -160,6 +166,8 @@ a {
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             right: 5%;
             margin-top: -20%;
+
+            &-div {}
         }
     }
 
@@ -271,7 +279,8 @@ a {
 
     &-modal {
         position: absolute;
-        background: rgb(242, 239, 239) box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background: rgb(242, 239, 239);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         padding: 5% 15%;
         margin-top: 10%;
 
